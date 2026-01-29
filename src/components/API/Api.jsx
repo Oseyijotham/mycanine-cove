@@ -82,7 +82,7 @@ export function fetchBreeds() {
     method: 'GET',
     headers: {
       'x-api-key':
-        'live_veNZdtcwPdxTq8JCOCN8dW0LvRfMhLJHM4uZOHDCWDC5ve8GaIeqqX5Y2CT6lrKI',
+        'live_5svkRgOyWadRJv2cY1CruDv2TtoPMx38PhCFljF5vZ58sqzvCm9c65JFx3p5p2El',
     },
   });
 }

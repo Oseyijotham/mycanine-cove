@@ -214,7 +214,7 @@ useEffect(() => {
       .then(response => {
         setBreedList([...response]);
         setInitLoader(false);
-        //console.log(response);
+        console.log(response);
       })
       .catch(error => {
         setInitLoader(false);
