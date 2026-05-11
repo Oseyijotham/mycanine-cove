@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 export const Modal = () => {
   const { isOpen, handleClose } = useUser();
   const { movieId } = useParams();
-  const movieLink = 'https://vidsrc.xyz/embed/movie?tmdb=' + movieId;  
+  const movieLink = 'https://vidsrc-embed.ru/embed/movie?tmdb=' + movieId;  
   const playerRef = useRef();
     useEffect(() => {
       const frame = playerRef.current;
