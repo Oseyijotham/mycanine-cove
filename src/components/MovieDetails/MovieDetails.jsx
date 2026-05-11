@@ -29,7 +29,7 @@ export const MovieDetails = () => {
   }, [movieId]);
   const imgLink = 'https://image.tmdb.org/t/p/original/' + moviePoster; 
   
-  const movieLink = 'https://vidsrc.xyz/embed/movie?tmdb=' + movieId;  
+  const movieLink = 'https://vidsrc-embed.ru/embed/movie?tmdb=' + movieId;  
 
   //const movieLink2 = 'https://www.2embed.cc/embed/' + movieId; 
   const playerRef = useRef();
